@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de Marcas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Marcas de Coches</h1>
+    <ul>
+        {{MARCA_LIST}}
+    </ul>
+
+    <!-- Botón para ver el carrito -->
+    <form action="carrito.php" method="GET">
+        <button type="submit">Ver Carrito</button>
+    </form>
+
+    <!-- Botón para cerrar sesión -->
+    <form action="logout.php" method="POST">
+        <button type="submit">Cerrar Sesión</button>
+    </form>
+</body>
+</html>
